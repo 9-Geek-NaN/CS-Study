@@ -27,13 +27,13 @@
 1주차 스터디 주제 : [ByteByteGoHq > system-design-101](https://github.com/ByteByteGoHq/system-design-101/?tab=readme-ov-file#communication-protocols)
 | **주제** | **발표자** |
 | --- | --- |
-| [REST API vs. GraphQL]() | 김상혁(hyuk) |
-| [How does gRPC work?]() | 안소정(sunday) |
-| [What is a webhook?]() | 정혜윤(yuni) |
-| [How to improve API performance?]() | 유건주(david) |
-| [HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]() | 유건주(david) |
-| [SOAP vs REST vs GraphQL vs RPC]() | 김상혁(hyuk) |
-| [Code First vs. API First]() | 이혁진(eddie) |
-| [HTTP status codes]() | 이혁진(eddie) |
-| [What does API gateway do?]() | 정혜윤(yuni) |
-| [How do we design effective and safe APIs?]() | 안소정(sunday) |
+| [REST API vs. GraphQL]() | [김상혁(hyuk)](https://github.com/duckchanahn) |
+| [How does gRPC work?]() | [안소정(sunday)](https://github.com/AhnSunday) |
+| [What is a webhook?]() | [정혜윤(yuni)](https://github.com/hyoon1129) |
+| [How to improve API performance?]() | [유건주(david)](https://github.com/bakgom123) |
+| [HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)]() | [유건주(david)](https://github.com/bakgom123) |
+| [SOAP vs REST vs GraphQL vs RPC]() | [김상혁(hyuk)](https://github.com/duckchanahn) |
+| [Code First vs. API First]() | [이혁진(eddie)](https://github.com/kjr2020) |
+| [HTTP status codes]() | [이혁진(eddie)](https://github.com/kjr2020) |
+| [What does API gateway do?]() | [정혜윤(yuni)](https://github.com/hyoon1129) |
+| [How do we design effective and safe APIs?]() | [안소정(sunday)](https://github.com/AhnSunday) |
