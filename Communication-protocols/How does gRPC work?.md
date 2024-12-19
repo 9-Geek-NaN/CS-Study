@@ -54,7 +54,8 @@ REST는 HTTP1.1을 사용
 ## 그렇다면 무조건 RPC를 쓰는게 좋은가?
 아니다!<br>
 보내는 데이터가 작을때는 REST가 더 효율적이다
-![img_1](https://github.com/user-attachments/assets/ec90de92-20d0-47e2-a809-08a356a83cc3)
+
+![img_1](https://github.com/user-attachments/assets/ec90de92-20d0-47e2-a809-08a356a83cc3)<br>
 reference: https://medium.com/@i.gorton/scaling-up-rest-versus-grpc-benchmark-tests-551f73ed88d4
 
 # 참고
