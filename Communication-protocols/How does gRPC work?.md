@@ -9,7 +9,7 @@ RPC는 Remote Procedure Call 의 약자로 프로세스 간 통신의 한 형태
 <br>
 ## RPC의 핵심 : Stub
 RPC의 매커니즘
-![img_4](https://github.com/user-attachments/assets/1d28b269-f9af-4e9c-aa77-495bd27fb70e)
+![img_4](https://github.com/user-attachments/assets/1d28b269-f9af-4e9c-aa77-495bd27fb70e)<br>
  reference: https://www.guru99.com/ko/remote-procedure-call-rpc.html
 
 스텁: 매개변수(parameter)객체를 메세지로 변환/역변환 하는 레이어
@@ -24,7 +24,7 @@ RPC의 매커니즘
 데이터 구조를 .proto 파일에 정의하여 통신<br>
 메세지 키만 간소화하는것이 아니라 직렬화 하여 전송<br>
 (REST는 Serialization없이 Json, XML을 사용 -> 상대적으로 용량이 크다!)
-![img_2 (1)](https://github.com/user-attachments/assets/6aa55212-8f3a-40b7-be56-6e51055384ca)
+![img_2 (1)](https://github.com/user-attachments/assets/6aa55212-8f3a-40b7-be56-6e51055384ca)<br>
 reference: https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html<br>
 <br>
 <br>
