@@ -1,6 +1,6 @@
 # HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)
 
-![http3.jpg](HTTP%201%200%20-%20HTTP%201%201%20-%20HTTP%202%200%20-%20HTTP%203%200%20(QUIC)%20160cb8b5c12e80ce9762ca277a0f7fba/http3.jpg)
+<img width="404" alt="qweqwe" src="https://github.com/user-attachments/assets/62963b19-b984-4e0e-a046-80c1347e2bb1" />
 
 # **각 HTTP세대별로 해결하고자 한 문제**
 
