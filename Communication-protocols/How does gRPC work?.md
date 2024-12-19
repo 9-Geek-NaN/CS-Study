@@ -25,7 +25,7 @@ RPC의 매커니즘
 메세지 키만 간소화하는것이 아니라 직렬화 하여 전송<br>
 (REST는 Serialization없이 Json, XML을 사용 -> 상대적으로 용량이 크다!)
 ![img_2 (1)](https://github.com/user-attachments/assets/6aa55212-8f3a-40b7-be56-6e51055384ca)
-reference: https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html
+reference: https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html<br>
 <br>
 <br>
 
@@ -34,17 +34,17 @@ REST는 HTTP1.1을 사용
 <br>
 <br>
 ## gRPC 예제
-.proto 확장자 파일
-![image](https://github.com/user-attachments/assets/b0f7ea5a-44e9-4b8b-bda0-e6188d47eedf)
+.proto 확장자 파일<br>
+![image](https://github.com/user-attachments/assets/b0f7ea5a-44e9-4b8b-bda0-e6188d47eedf)<br>
 - 각 메시지가 어떻게 작성될지에 관한 약속으로 서버와 클라이언트 모두에게 공유됨
 - 이를 기준으로 서버와 클라이언트는 서로 주고받는 메세지를 작성,해독 함
 서버(파이썬)와 클라이언트(자바) 코드
-![image](https://github.com/user-attachments/assets/238392f7-6769-4dc8-944b-f5f09d7a2bc9)
+![image](https://github.com/user-attachments/assets/238392f7-6769-4dc8-944b-f5f09d7a2bc9)<br>
 - .proto파일에 있던 CheckBookAvailability가 서버에서 함수로 정의되어있고
 이를 클라이언트에서 stub 객체를 통해 호출하는 것을 볼 수 있다
 <br>
 <br>
-예제reference: https://www.youtube.com/watch?v=uwrR5e5_FH8
+예제 reference: https://www.youtube.com/watch?v=uwrR5e5_FH8
 <br>
 ## 그렇다면 무조건 RPC를 쓰는게 좋은가?
 아니다!<br>
