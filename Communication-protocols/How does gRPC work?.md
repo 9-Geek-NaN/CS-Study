@@ -35,11 +35,11 @@ REST는 HTTP1.1을 사용
 <br>
 ## gRPC 예제
 .proto 확장자 파일<br>
-[![image](https://github.com/user-attachments/assets/b0f7ea5a-44e9-4b8b-bda0-e6188d47eedf)](https://github.com/9-Geek-NaN/CS-Study/issues/4#issue-2749609453)<br>
+![397024341-b0f7ea5a-44e9-4b8b-bda0-e6188d47eedf](https://github.com/user-attachments/assets/45c28c01-740e-4ae3-a9cb-e5253706f358)<br>
 - 각 메시지가 어떻게 작성될지에 관한 약속으로 서버와 클라이언트 모두에게 공유됨
 - 이를 기준으로 서버와 클라이언트는 서로 주고받는 메세지를 작성,해독 함
 서버(파이썬)와 클라이언트(자바) 코드
-[![image](https://github.com/user-attachments/assets/238392f7-6769-4dc8-944b-f5f09d7a2bc9)](https://github.com/9-Geek-NaN/CS-Study/issues/5#issue-2749610819)<br>
+![397025650-238392f7-6769-4dc8-944b-f5f09d7a2bc9](https://github.com/user-attachments/assets/105304c2-a11a-4500-b584-8581c00ee192)<br>
 - .proto파일에 있던 CheckBookAvailability가 서버에서 함수로 정의되어있고
 이를 클라이언트에서 stub 객체를 통해 호출하는 것을 볼 수 있다
 <br>
