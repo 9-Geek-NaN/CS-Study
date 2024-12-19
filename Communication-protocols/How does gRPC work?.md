@@ -34,6 +34,7 @@ reference: https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-prot
 REST는 HTTP1.1을 사용
 <br>
 <br>
+
 ## gRPC 예제
 .proto 확장자 파일<br>
 
@@ -49,6 +50,7 @@ REST는 HTTP1.1을 사용
 <br>
 예제 reference: https://www.youtube.com/watch?v=uwrR5e5_FH8
 <br>
+
 ## 그렇다면 무조건 RPC를 쓰는게 좋은가?
 아니다!<br>
 보내는 데이터가 작을때는 REST가 더 효율적이다
