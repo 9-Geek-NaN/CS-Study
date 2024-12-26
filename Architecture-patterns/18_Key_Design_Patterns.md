@@ -895,5 +895,5 @@ class AnalyticsVisitor {
 출처.  
 https://en.wikipedia.org/wiki/Creational_pattern  
 https://en.wikipedia.org/wiki/Structural_pattern  
-https://en.wikipedia.org/wiki/Behavioral_pattern
-https://refactoring.guru/ko/design-patterns/chain-of-responsibility  
+https://en.wikipedia.org/wiki/Behavioral_pattern  
+https://refactoring.guru/ko/design-patterns/what-is-pattern  
