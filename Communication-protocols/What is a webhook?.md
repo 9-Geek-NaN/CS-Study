@@ -19,7 +19,8 @@
 
 ## 웹훅과 API 폴링의 차이
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/3fa2d652-e465-4eae-abfb-cc9be995fdf8)
+
 
 ### 예시
 

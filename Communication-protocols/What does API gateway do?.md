@@ -25,7 +25,8 @@
 
 ## API Gateway 동작과정
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/7b0242a9-5ecf-46fc-b843-f3360191c4d8)
+
 
 **Step 1. 클라이언트 요청** 
 
