@@ -10,6 +10,7 @@
 <hr>
 
 ## 1. 생성 패턴 (Creational Patterns)
+객체 생성의 유연성과 재사용성을 높이기 위한 디자인 패턴
 
 ### 1-1. 추상 팩토리 (Abstract Factory)
 
@@ -206,6 +207,7 @@ userStore.logout(); // user = null
 <hr>
 
 ## 2. 구조 패턴 (Structural Patterns)
+클래스와 객체를 더 큰 구조로 조합하는 방법을 다루는 디자인 패턴
 
 ### 2-1. 어댑터 (Adapter)
 
@@ -240,7 +242,7 @@ class GoogleOAuth {
   }
 
   async getGoogleUserProfile(token: string) {
-    return { name: 'John Doe', email: 'john@gmail.com' };
+    return { name: 'Hyuk Kim', email: 'hyuk@gmail.com' };
   }
 }
 
@@ -299,7 +301,8 @@ class GoogleAuthAdapter implements AuthenticationProvider {
 // 게시글 저장소
 // 추상화 계층
 class PostRepository {
-  constructor(storage) {
+   // storage는 브릿지 역할! (Repository와 Storage를 연결)
+  constructor(storage) { 
     this.storage = storage;
   }
   
@@ -351,17 +354,17 @@ const repository = new PostRepository(new CloudStorage());
 // 댓글 시스템
 javascriptCopyclass Comment {
     constructor(content) {
-    this.content = content;
-    this.replies = [];
+       this.content = content;
+       this.replies = [];
     }
     
     addReply(comment) {
-    this.replies.push(comment);
+        this.replies.push(comment);
     }
     
     display(depth = 0) {
-    console.log('  '.repeat(depth) + this.content);
-    this.replies.forEach(reply => reply.display(depth + 1));
+       console.log('  '.repeat(depth) + this.content);
+       this.replies.forEach(reply => reply.display(depth + 1));
     }
 }
 ```
@@ -450,9 +453,55 @@ class UserFacade {
     }
 }
 ```
+
+```javascript
+// 퍼샤드를 사용하지 않았을 경우!
+class SignupComponent {
+    async handleSignup(formData) {
+        try {
+            // AuthService 직접 다루기
+            const authService = new AuthService();
+            const user = await authService.createUser({
+                email: formData.email,
+                password: formData.password
+            });
+            
+            // ProfileService 직접 다루기
+            const profileService = new ProfileService();
+            await profileService.createProfile(user.id, {
+                name: formData.name,
+                birthdate: formData.birthdate,
+                address: formData.address
+            });
+            
+            // NotificationService 직접 다루기
+            const notificationService = new NotificationService();
+            if (formData.marketingConsent) {
+                await notificationService.subscribeToNewsletter(user.email);
+            }
+            await notificationService.sendWelcomeEmail(user.email);
+            
+            return user;
+            
+        } catch (error) {
+            // 각 서비스별로 다른 에러 처리가 필요할 수 있음
+            if (error instanceof AuthError) {
+                // 인증 관련 에러 처리
+            } else if (error instanceof ProfileError) {
+                // 프로필 관련 에러 처리
+                await authService.deleteUser(user.id); // 롤백 처리
+            } else if (error instanceof NotificationError) {
+                // 알림 관련 에러 처리
+            }
+        }
+    }
+}
+```
+
 <hr>
 
 ## 3. 행위 패턴 (Behavioral Patterns)
+객체들이 서로 상호작용하고 책임을 분배하는 방식을 다루는 디자인 패턴
 
 ### 3-1. 플라이웨이트 (Flyweight)
 **개념**
@@ -485,6 +534,22 @@ getPost(id) {
     return this.cache.get(id);
 }
 ```
+
+<br>
+
+**캐시와의 차이점!**  
+
+| 특성 | 플라이웨이트 | 캐시 |
+|------|------------|------|
+| 주 목적 | 메모리 사용 최적화 | 접근 속도 향상 |
+| 데이터 처리 | 공유 가능한 상태를 분리하여 재사용 | 계산 결과나 데이터를 임시 저장 |
+| 수명 | 객체가 필요한 동안 계속 유지 | 일정 시간 후 삭제/갱신 가능 |
+| 사용 시점 | 동일한 객체가 다수 필요할 때 | 비용이 많이 드는 연산 결과 재사용 시 |
+| 구현 방식 | 팩토리를 통한 객체 공유 | 키-값 저장소 형태 |
+| 상태 관리 | 내부 상태와 외부 상태 구분 | 결과값 전체를 저장 |
+| 메모리 특성 | 공유를 통한 메모리 절약 | 추가 메모리 사용을 통한 속도 향상 |
+<br>
+
 ### 3-2. 프록시 (Proxy)
 
 **개념**
@@ -522,6 +587,8 @@ class PostProxy {
 ```
 
 ### 3-3. 책임 연쇄 (Chain of Responsibility)
+
+![img.png](Image-DesignPattern/UML-Chain_of_Responsibility.png)
 
 **개념**
 - 요청을 처리할 수 있는 기회를 여러 객체에게 부여
@@ -566,6 +633,8 @@ class SpamFilter extends ContentFilter {
 ```
 
 ### 3-4. 커맨드 (Command)
+
+![img.png](Image-DesignPattern/Logic-Command.png)
 
 **개념**
 - 요청을 객체로 캡슐화하여 매개변수화
@@ -642,6 +711,10 @@ class PostIterator {
 ```
 
 ### 3-6. 중재자 (Mediator)
+
+![img.png](Image-DesignPattern/Logic-Mediator-before.png)
+
+![img_1.png](Image-DesignPattern/Logic-Mediator-after.png)
 
 **개념**
 - 객체 간의 복잡한 통신을 중앙화하여 처리
@@ -770,25 +843,48 @@ class PostSubject {
 
 **구현 예시**
 ```javascript
-// 게시글 통계
+// Visitor: 각 요소별 처리 로직을 정의
 class PostVisitor {
-  visitTextPost(post) {
-    return post.content.length;
-  }
+   // 텍스트 게시글 처리
+   visitTextPost(post) {
+      return post.content.length; // 텍스트 길이 반환
+   }
 
-  visitImagePost(post) {
-    return post.images.length;
-  }
+   // 이미지 게시글 처리
+   visitImagePost(post) {
+      return post.images.length; // 이미지 개수 반환
+   }
 }
 
+// Element: Visitor를 받아들이는 인터페이스 정의
 class Post {
-  accept(visitor) {
-    if (this.type === 'text') {
-      return visitor.visitTextPost(this);
-    } else if (this.type === 'image') {
-      return visitor.visitImagePost(this);
+   accept(visitor) {
+      // 타입에 따라 적절한 visitor 메서드 호출
+      if (this.type === 'text') {
+         return visitor.visitTextPost(this);
+      } else if (this.type === 'image') {
+         return visitor.visitImagePost(this);
+      }
+   }
+}
+```
+
+```javascript
+// 새로운 통계 기능 추가
+class AnalyticsVisitor {
+    visitTextPost(post) {
+        return {
+            wordCount: post.content.split(' ').length,
+            charCount: post.content.length
+        };
     }
-  }
+
+    visitImagePost(post) {
+        return {
+            imageCount: post.images.length,
+            totalSize: post.images.reduce((sum, img) => sum + img.size, 0)
+        };
+    }
 }
 ```
 
@@ -799,4 +895,5 @@ class Post {
 출처.  
 https://en.wikipedia.org/wiki/Creational_pattern  
 https://en.wikipedia.org/wiki/Structural_pattern  
-https://en.wikipedia.org/wiki/Behavioral_pattern  
+https://en.wikipedia.org/wiki/Behavioral_pattern
+https://refactoring.guru/ko/design-patterns/chain-of-responsibility  
