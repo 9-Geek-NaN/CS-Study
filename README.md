@@ -2,7 +2,7 @@
 
 ## 📅 스터디 일정
 
-스터디 시간 : **목요일 8시** (안되는 날 있으면 미리 말해서 조율!)
+스터디 시간 : **목요일 20시** (안되는 날 있으면 미리 말해서 조율!)
 
 기간  : `24.12.19(목)` ~ `25.02.27(목)`(12월 방학엔 정상 진행, 설 연휴는 제외)
 
@@ -40,7 +40,7 @@
 | [SOAP vs REST vs GraphQL vs RPC](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/SOAP%20vs%20REST%20vs%20GraphQL%20vs%20RPC.md) | 김상혁 (hyuk) |
 | [Code First vs. API First](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/Code%20First%20vs.%20API%20First.md) | 이혁진 (eddie) |
 | [HTTP status codes](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/Http%20status%20codes.md) | 이혁진 (eddie) |
-| [What does API gateway do?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/What%20does%20API%20gateway%20do%3F.md) | 정혜윤 (yuni)) |
+| [What does API gateway do?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/What%20does%20API%20gateway%20do%3F.md) | 정혜윤 (yuni) |
 | [How do we design effective and safe APIs?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/How%20do%20we%20design%20effective%20and%20safe%20APIs%3F.md) | 안소정 (sunday) |
 
 ### **2주차** : 2024.12.26(목)
