@@ -58,6 +58,7 @@
 - 예: 임베디드 시스템, 프린터 펌웨어
 
 ### (2)-2. BIOS (Basic Input/Output System)
+![image](https://github.com/user-attachments/assets/deebff07-f81f-48ab-9a10-2f72e2dddd69)
 
 - 컴퓨터가 부팅될 때 하드웨어 초기화와 OS 로드를 담당
 
