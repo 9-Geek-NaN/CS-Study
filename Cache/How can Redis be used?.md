@@ -102,8 +102,6 @@ HSETNX user:123 email "john@example.com" # 필드가 없을 때만 설정
 - 메시지 큐 구현
 - 순서가 중요한 데이터
 
-- 대량의 불린 데이터 처리
-
 ### 특징
 - 양방향 푸시/팝 연산 지원
 - 인덱스 기반 접근 가능
@@ -240,3 +238,9 @@ BITOP NOT result bitmap          # NOT 연산
 BITCOUNT bitmap 0 1         # 특정 바이트 범위의 1 비트 수
 BITFIELD bitmap GET u4 0    # 4비트 부호 없는 정수로 조회
 ```
+
+<br><br><br>
+
+출처  
+https://redis.io/docs/latest/develop/data-types/  
+https://github.com/ByteByteGoHq/system-design-101?tab=readme-ov-file#how-can-redis-be-used
