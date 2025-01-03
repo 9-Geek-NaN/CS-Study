@@ -29,7 +29,7 @@
 ## 📚 주제 
 🔗 스터디 주제 참고 : https://github.com/ByteByteGoHq/system-design-101
 
-### **1주차** : 2024.12.19(목)
+### 1주차 : 2024.12.19(목)
 | **주제** | **발표자** |
 | --- | --- |
 | [REST API vs. GraphQL](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/SOAP%20vs%20REST%20vs%20GraphQL%20vs%20RPC.md) | 김상혁 (hyuk) |
@@ -43,7 +43,7 @@
 | [What does API gateway do?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/What%20does%20API%20gateway%20do%3F.md) | 정혜윤 (yuni) |
 | [How do we design effective and safe APIs?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/How%20do%20we%20design%20effective%20and%20safe%20APIs%3F.md) | 안소정 (sunday) |
 
-### **2주차** : 2024.12.26(목)
+### 2주차 : 2024.12.26(목)
 | **주제** | **발표자** |
 | --- | --- |
 | [TCP/IP encapsulation](https://github.com/9-Geek-NaN/CS-Study/blob/main/Communication-protocols/TCP%20IP%20encapsulation.md) | 유건주 (david) |
@@ -56,3 +56,20 @@
 | [18 Key Design Patterns Every Developer Should Know](https://github.com/9-Geek-NaN/CS-Study/blob/main/Architecture-patterns/18_Key_Design_Patterns.md) | 김상혁 (hyuk) |
 | [A nice cheat sheet of different databases in cloud services](https://github.com/9-Geek-NaN/CS-Study/blob/main/Database/A%20nice%20cheat%20sheet%20of%20different%20databases%20in%20cloud%20services.md) | 이혁진 (eddie) |
 | [8 Data Structures That Power Your Databases](https://github.com/9-Geek-NaN/CS-Study/blob/main/Database/8%20Data%20Structures%20That%20Power%20Your%20Databases.md) | 이혁진 (eddie) |
+
+
+### 3주차 : 2025.01.02(목)
+| **주제** | **발표자** |
+| --- | --- |
+| [How is an SQL statement executed in the database?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Database/How%20is%20an%20SQL%20statement%20executed%20in%20the%20database%3F.md) | 유건주 (david) |
+| [CAP theorem](https://github.com/9-Geek-NaN/CS-Study/blob/main/Database/CAP%20theorem.md) | 유건주 (david) |
+| [Types of Memory and Storage](https://github.com/9-Geek-NaN/CS-Study/blob/main/Database/Types%20of%20Memory%20and%20Storage.md) | 정혜윤 (yuni) |
+| [Visualizing a SQL query](https://github.com/9-Geek-NaN/CS-Study/blob/main/Database/Visualizing%20a%20SQL%20query.md) | 정혜윤 (yuni) |
+| [SQL language](https://github.com/9-Geek-NaN/CS-Study/blob/main/Database/SQL%20language.md) | 정혜윤 (yuni) |
+| [Data is cached everywhere](https://github.com/9-Geek-NaN/CS-Study/blob/main/Cache/Data%20is%20cached%20everywhere.md) | 안소정 (sunday) |
+| [Why is Redis so fast?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Cache/Why%20is%20Redis%20so%20fast%3F.md) | 안소정 (sunday) |
+| [How can Redis be used?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Cache/How%20can%20Redis%20be%20used%3F.md) | 김상혁 (hyuk) |
+| [Top caching strategies](https://github.com/9-Geek-NaN/CS-Study/blob/main/Cache/Top%20caching%20strategies.md) | 김상혁 (hyuk) |
+| [What does a typical microservice architecture look like?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Microservice%20architecture/What%20does%20a%20typical%20microservice%20architecture%20look%20like%3F.md) | 이혁진 (eddie) |
+| [Microservice Best Practices](https://github.com/9-Geek-NaN/CS-Study/blob/main/Microservice%20architecture/Microservice%20Best%20Practices.md) | 이혁진 (eddie) |
+
