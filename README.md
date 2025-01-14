@@ -73,3 +73,19 @@
 | [What does a typical microservice architecture look like?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Microservice%20architecture/What%20does%20a%20typical%20microservice%20architecture%20look%20like%3F.md) | 이혁진 (eddie) |
 | [Microservice Best Practices](https://github.com/9-Geek-NaN/CS-Study/blob/main/Microservice%20architecture/Microservice%20Best%20Practices.md) | 이혁진 (eddie) |
 
+
+### 4주차 : 2025.01.09(목)
+| **주제** | **발표자** |
+| --- | --- |
+| [What tech stack is commonly used for microservices?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Microservice%20architecture/What%20tech%20stack%20is%20commonly%20used%20for%20microservices%3F.md) | 김상혁 (hyuk) |
+| [Why is Kafka fast?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Microservice%20architecture/Why%20is%20Kafka%20fast.md) | 김상혁 (hyuk) |
+| [How to learn payment systems?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Payment-systems/How%20to%20Learn%20Payments%3F.md) | 유건주 (david) |
+| [How does VISA make money?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Payment-systems/How%20Does%20VISA%20Make%20Money%3F.md) | 유건주 (david) |
+| [How does VISA work when we swipe a credit card at a merchant’s shop?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Payment-systems/How%20does%20VISA%20work%20when%20we%20swipe%20a%20credit%20card%20at%20a%20merchant%E2%80%99s%20shop%3F.md) | 안소정 (sunday) |
+| [Unified Payments Interface (UPI) in India](https://github.com/9-Geek-NaN/CS-Study/blob/main/Payment-systems/Payment%20Systems%20Around%20The%20World%20Series%20(Part%201)%3A%20Unified%20Payments%20Interface%20(UPI)%20in%20India.md) | 안소정 (sunday) |
+| [DevOps vs. SRE vs. Platform Engineering. What is the difference?](https://github.com/9-Geek-NaN/CS-Study/blob/main/DevOps/DevOps%20vs.%20SRE%20vs.%20Platform%20Engineering.md) | 정혜윤 (yuni) |
+| [What is k8s (Kubernetes)?](https://github.com/9-Geek-NaN/CS-Study/blob/main/DevOps/What%20is%20k8s%20(Kubernetes)%3F.md) | 정혜윤 (yuni) |
+| [Docker vs. Kubernetes. Which one should we use?](https://github.com/9-Geek-NaN/CS-Study/blob/main/DevOps/Docker%20vs.%20Kubernetes.%20Which%20one%20should%20we%20use%3F.md) | 이혁진 (eddie) |
+| [How does Docker work?](https://github.com/9-Geek-NaN/CS-Study/blob/main/DevOps/How%20does%20Docker%20work%3F.md) | 이혁진 (eddie) |
+
+
