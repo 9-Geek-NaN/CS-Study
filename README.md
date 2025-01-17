@@ -89,3 +89,15 @@
 | [How does Docker work?](https://github.com/9-Geek-NaN/CS-Study/blob/main/DevOps/How%20does%20Docker%20work%3F.md) | 이혁진 (eddie) |
 
 
+### 5주차 : 2025.01.16(목)
+| **주제** | **발표자** |
+| --- | --- |
+| [How Git Commands work? How does Git Work?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Git/How%20Git%20Commands%20work%3F%20How%20does%20Git%20Work%3F.md) | 정혜윤 (yuni) |
+| [git rebase vs git merge](https://github.com/9-Geek-NaN/CS-Study/blob/main/Git/git%20rebase%20vs%20git%20merge.md) | 정혜윤 (yuni) |
+| [A nice cheat sheet of different cloud services](https://github.com/9-Geek-NaN/CS-Study/blob/main/Cloud%20Services/A%20nice%20cheat%20sheet%20of%20different%20cloud%20services.md) | 유건주 (david) |
+| [What is cloud native?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Cloud%20Services/What%20is%20cloud%20native%3F.md) | 유건주 (david) |
+| [Developer productivity tools](https://github.com/9-Geek-NaN/CS-Study/blob/main/Developer%20productivity%20tools/Visualize%20tools.md) | 안소정 (sunday) |
+| [Linux file system explained](https://github.com/9-Geek-NaN/CS-Study/blob/main/Linux/Linux%20file%20system%20explained.md) | 김상혁 (hyuk) |
+| [18 Most-used Linux Commands You Should Know](https://github.com/9-Geek-NaN/CS-Study/blob/main/Linux/18%20Most-used%20Linux%20Commands%20You%20Should%20Know.md) | 김상혁 (hyuk) |
+| [How does HTTPS work?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/How%20does%20HTTPS%20work%3F.md) | 이혁진 (eddie) |
+| [Oauth 2.0 Explained With Simple Terms](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/Oauth%202.0%20Explained%20With%20Simple%20Terms.md) | 이혁진 (eddie) |
