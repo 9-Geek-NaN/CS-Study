@@ -18,7 +18,7 @@ Json Web Token의 약자로 애플리케이션 간의 정보 교환을 위해 �
 
 ---
 <br>\
-![alt text](jwtImage.png)
+![alt text](./image/jwtImage.png)
 
 ### HEADER
 - 헤더에서는 해시 알고리즘과 토큰의 타입을 정의할 수 있다.
