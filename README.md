@@ -101,3 +101,14 @@
 | [18 Most-used Linux Commands You Should Know](https://github.com/9-Geek-NaN/CS-Study/blob/main/Linux/18%20Most-used%20Linux%20Commands%20You%20Should%20Know.md) | 김상혁 (hyuk) |
 | [How does HTTPS work?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/How%20does%20HTTPS%20work%3F.md) | 이혁진 (eddie) |
 | [Oauth 2.0 Explained With Simple Terms](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/Oauth%202.0%20Explained%20With%20Simple%20Terms.md) | 이혁진 (eddie) |
+
+
+### 6주차 : 2025.02.06(목)
+| **주제** | **발표자** |
+| --- | --- |
+| Top 4 Forms of Authentication Mechanisms | 유건주 (david) |
+| [Session, cookie, JWT, token, SSO, and OAuth 2.0 - what are they?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/Session%2C%20cookie%2C%20JWT%2C%20token%2C%20SSO%2C%20OAuth%202.0.md) | 정혜윤 (yuni) |
+| [How to store passwords safely in the database and how to validate a password?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/How%20to%20store%20passwords%20safely%20in%20the%20database%20and%20how%20to%20validate%20a%20password%3F.md) | 이혁진 (eddie) |
+| [Explaining JSON Web Token (JWT) to a 10 year old Kid](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/Explaining%20JSON%20Web%20Token%20(JWT)%20to%20a%2010%20year%20old%20Kid.md) | 안소정 (sunday) |
+| [How does Google Authenticator (or other types of 2-factor authenticators) work?](https://github.com/9-Geek-NaN/CS-Study/blob/main/Security/How%20does%20Google%20Authenticator%20(or%20other%20types%20of%202-factor%20authenticators)%20work%3F.md) | 김상혁 (hyuk) |
+
